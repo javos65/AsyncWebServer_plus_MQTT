@@ -35,7 +35,7 @@ void mqtt_receive_callback(char* topic, byte* payload, unsigned int length);
 // Arguments: EthernetClient, our trust anchors
 WiFiClient      wifiClient;
 PubSubClient    client(MQTT_SERVER, MQTT_PORT, mqtt_receive_callback, wifiClient);
-String data         = "Hello from MQTT_ThingStream on " + String(BOARD_NAME) + " with " + String(SHIELD_TYPE);
+String data         = "Hello from MQTT on " + String(BOARD_NAME) + " with " + String(SHIELD_TYPE);
 const char *pubData = data.c_str();
 
 AsyncWebServer    server(80);
