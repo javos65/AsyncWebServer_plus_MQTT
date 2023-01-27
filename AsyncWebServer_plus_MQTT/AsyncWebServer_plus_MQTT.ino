@@ -1,16 +1,4 @@
 /****************************************************************************************************************************
-  MQTT_ThingStream.ino
-
-  For Portenta_H7 (STM32H7) with Vision-Shield Ethernet or Murata WiFi
-
-  Portenta_H7_AsyncWebServer is a library for the Portenta_H7 with Vision-Shield Ethernet or Murata WiFi
-
-  Based on and modified from ESPAsyncWebServer (https://github.com/me-no-dev/ESPAsyncWebServer)
-  Built by Khoi Hoang https://github.com/khoih-prog/Portenta_H7_AsyncWebServer
-  Licensed under GPLv3 license
- *****************************************************************************************************************************/
-
-/*
   Basic MQTT example (without SSL!)
   This sketch demonstrates the basic capabilities of the library.
   It connects to an MQTT server then:
@@ -21,10 +9,6 @@
   reconnect function. See the 'mqtt_reconnect_nonblocking' example for how to
   achieve the same result without blocking the main loop.
 
-  You will need to populate "certificates.h" with your trust anchors
-  (see https://github.com/OPEnSLab-OSU/SSLClient/blob/master/TrustAnchors.md)
-  and my_cert/my_key with your certificate/private key pair
-  (see https://github.com/OPEnSLab-OSU/SSLClient#mtls).
 */
 
 // To remove boolean warnings caused by PubSubClient library
