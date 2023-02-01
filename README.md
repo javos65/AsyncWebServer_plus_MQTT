@@ -9,7 +9,8 @@ https://github.com/khoih-prog/Portenta_H7_AsyncWebServer
 
 
 The examples straight from the Libararies examples, combined in one Sketch
-Expecting these could co-exsist, but they dont : Mbed Crash after 1-2 minutes doing frequantweb-calls
+
+Expecting these could co-exsis ... , but they dont : Mbed Crash after 1-2 minutes doing frequent web-calls
 
 
 # Used Mbed OS : 3.5.4 CRASHES
