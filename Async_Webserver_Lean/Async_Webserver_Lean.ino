@@ -5,7 +5,7 @@
   Portenta_H7_AsyncWebServer is a library for the Portenta_H7 with Vision-Shield Ethernet or Murata WiFi
  
  Lean version with one inlin called HomePage
- Test version - fails ????
+ Test version - never fails 
  *****************************************************************************************************************************/
 
 #if !( defined(ARDUINO_PORTENTA_H7_M7) || defined(ARDUINO_PORTENTA_H7_M4) )
