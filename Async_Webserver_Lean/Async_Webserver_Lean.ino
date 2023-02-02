@@ -21,8 +21,8 @@
 
 #include <Portenta_H7_AsyncWebServer.h>
 
-char ssid[] = "JVWIRELESS";        // your network SSID (name)
-char pass[] = "FoxInDahHouse";         // your network password (use for WPA, or use as key for WEP), length must be 8+
+char ssid[] = "ssid";        // your network SSID (name)
+char pass[] = "pass";         // your network password (use for WPA, or use as key for WEP), length must be 8+
 
 int status = WL_IDLE_STATUS;
 

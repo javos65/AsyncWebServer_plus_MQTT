@@ -22,8 +22,8 @@
   #warning Using WiFi for Portenta_H7
 #endif
 
-#define WIFI_SSID         "JVWIRELESS"    // your network SSID (name)
-#define WIFI_PASSWORD     "FoxInDahHouse"    // your network password (use for WPA, or use as key for WEP), length must be 8+
+#define WIFI_SSID         "ssid"    // your network SSID (name)
+#define WIFI_PASSWORD     "pas"    // your network password (use for WPA, or use as key for WEP), length must be 8+
 
 int status = WL_IDLE_STATUS;
 

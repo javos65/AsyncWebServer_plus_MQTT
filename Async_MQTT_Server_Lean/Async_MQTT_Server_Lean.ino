@@ -13,6 +13,8 @@ Then web-server calls make this crash
 Lean version : 
   drawGraph(AsyncWebServerRequest *request) removed
   Web server  pages inline 
+
+  FAILS !!
  *****************************************************************************************************************************/
 
 #include "defines.h"
