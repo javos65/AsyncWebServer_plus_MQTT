@@ -252,7 +252,7 @@ void setup()
   connectToWifi();
   ///////////////////////////////////
   
-  server.on("/", HTTP_GET, [](AsyncWebServerRequest * request)  {    request->send(200, "text/plain", "Home Page");  });
+  server.on("/", HTTP_GET, [](AsyncWebServerRequest * request)  {    request->send(200, "text/html", "<head><meta http-equiv='refresh' content='3'/></head>Home Page");  });
   server.onNotFound(handleNotFound);
   server.begin();
   Serial.print(F("HTTP EthernetWebServer is @ IP : "));
