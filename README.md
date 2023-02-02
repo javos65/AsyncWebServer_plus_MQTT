@@ -12,6 +12,11 @@ The examples straight from the Libararies examples, combined in one Sketch
 
 Expecting these could co-exsis ... , but they dont : Mbed Crash after 1-2 minutes doing frequent web-calls
 
+# Used Mbed OS : 3.5.4 CRASHES
+USed libraries :
+AsyncMqtt_Generic 1.8.1
+Portenta_H7_AsyncWebServer 1.5.0
+Portenta_H7_AsyncTCP 1.4.0
 
 # Used Mbed OS : 3.5.4 CRASHES
 USed libraries :
